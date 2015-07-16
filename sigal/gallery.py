@@ -148,7 +148,7 @@ class Image(Media):
     """Gather all informations on an image file."""
 
     type = 'image'
-    extensions = ('.jpg', '.jpeg', '.png')
+    extensions = ('.jpg', '.jpeg', '.png', '.gif')
 
     @cached_property
     def date(self):

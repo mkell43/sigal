@@ -9,6 +9,16 @@ Sigal - Simple Static Gallery Generator
    :target: https://coveralls.io/r/saimn/sigal?branch=master
    :alt: coveralls.io
 
+## NOTE
+
+This is a personal fork to make building galleries with gifs easier.  It doesn't really do it the right way, in that it
+doesn't resize the gifs or do the other image manipulation that Sigal does by default with jpegs.  In addition to the
+changes made in this fork of Sigal you also need to set the following in your sigal.conf.py file.
+
+```use_orig = True```
+
+## END NOTE
+
 Sigal is yet another simple static gallery generator. It's written in Python
 and it allows to build a static gallery of images with the following features:
 
